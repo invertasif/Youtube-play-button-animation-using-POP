@@ -1,0 +1,6 @@
+framework module Pods_Youtube_play_button_animation_using_POP {
+  umbrella header "Pods-Youtube play button animation using POP-umbrella.h"
+
+  export *
+  module * { export * }
+}

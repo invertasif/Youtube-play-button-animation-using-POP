@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1464481D7ADF6C624C3F81F /* Pods_Youtube_play_button_animation_using_POP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDA4DA727E6824E29186958 /* Pods_Youtube_play_button_animation_using_POP.framework */; };
 		ABB03C081CEB4D660083E3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB03C071CEB4D660083E3CA /* AppDelegate.swift */; };
 		ABB03C0A1CEB4D660083E3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB03C091CEB4D660083E3CA /* ViewController.swift */; };
 		ABB03C0D1CEB4D660083E3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB03C0B1CEB4D660083E3CA /* Main.storyboard */; };
 		ABB03C0F1CEB4D660083E3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB03C0E1CEB4D660083E3CA /* Assets.xcassets */; };
 		ABB03C121CEB4D660083E3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB03C101CEB4D660083E3CA /* LaunchScreen.storyboard */; };
+		ABB03C1A1CEB4EC80083E3CA /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB03C191CEB4EC80083E3CA /* PlayButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDA4DA727E6824E29186958 /* Pods_Youtube_play_button_animation_using_POP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Youtube_play_button_animation_using_POP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFA7CB0447BEC0EA7701FB /* Pods-Youtube play button animation using POP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtube play button animation using POP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Youtube play button animation using POP/Pods-Youtube play button animation using POP.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB03C041CEB4D660083E3CA /* Youtube play button animation using POP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube play button animation using POP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB03C071CEB4D660083E3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB03C091CEB4D660083E3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		ABB03C0E1CEB4D660083E3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB03C111CEB4D660083E3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB03C131CEB4D660083E3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB03C191CEB4EC80083E3CA /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		AC0B3BFAF2467595B42B161E /* Pods-Youtube play button animation using POP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtube play button animation using POP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Youtube play button animation using POP/Pods-Youtube play button animation using POP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1464481D7ADF6C624C3F81F /* Pods_Youtube_play_button_animation_using_POP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A8970C40BD1743B20ADE658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDA4DA727E6824E29186958 /* Pods_Youtube_play_button_animation_using_POP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E11D180AAC3B08B97004D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88EFA7CB0447BEC0EA7701FB /* Pods-Youtube play button animation using POP.debug.xcconfig */,
+				AC0B3BFAF2467595B42B161E /* Pods-Youtube play button animation using POP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABB03BFB1CEB4D660083E3CA = {
 			isa = PBXGroup;
 			children = (
 				ABB03C061CEB4D660083E3CA /* Youtube play button animation using POP */,
 				ABB03C051CEB4D660083E3CA /* Products */,
+				A0E11D180AAC3B08B97004D7 /* Pods */,
+				8A8970C40BD1743B20ADE658 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				ABB03C071CEB4D660083E3CA /* AppDelegate.swift */,
 				ABB03C091CEB4D660083E3CA /* ViewController.swift */,
+				ABB03C191CEB4EC80083E3CA /* PlayButton.swift */,
 				ABB03C0B1CEB4D660083E3CA /* Main.storyboard */,
 				ABB03C0E1CEB4D660083E3CA /* Assets.xcassets */,
 				ABB03C101CEB4D660083E3CA /* LaunchScreen.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB03C161CEB4D660083E3CA /* Build configuration list for PBXNativeTarget "Youtube play button animation using POP" */;
 			buildPhases = (
+				D3743112EBAD24E86EA4A876 /* 📦 Check Pods Manifest.lock */,
 				ABB03C001CEB4D660083E3CA /* Sources */,
 				ABB03C011CEB4D660083E3CA /* Frameworks */,
 				ABB03C021CEB4D660083E3CA /* Resources */,
+				A1B9957C656CC5BA54900882 /* 📦 Embed Pods Frameworks */,
+				F50E2932B665ED7BEFD17802 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +160,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1B9957C656CC5BA54900882 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Youtube play button animation using POP/Pods-Youtube play button animation using POP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3743112EBAD24E86EA4A876 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F50E2932B665ED7BEFD17802 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Youtube play button animation using POP/Pods-Youtube play button animation using POP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABB03C001CEB4D660083E3CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +215,7 @@
 			files = (
 				ABB03C0A1CEB4D660083E3CA /* ViewController.swift in Sources */,
 				ABB03C081CEB4D660083E3CA /* AppDelegate.swift in Sources */,
+				ABB03C1A1CEB4EC80083E3CA /* PlayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +326,7 @@
 		};
 		ABB03C171CEB4D660083E3CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88EFA7CB0447BEC0EA7701FB /* Pods-Youtube play button animation using POP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Youtube play button animation using POP/Info.plist";
@@ -258,6 +338,7 @@
 		};
 		ABB03C181CEB4D660083E3CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0B3BFAF2467595B42B161E /* Pods-Youtube play button animation using POP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Youtube play button animation using POP/Info.plist";
@@ -286,6 +367,7 @@
 				ABB03C181CEB4D660083E3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
